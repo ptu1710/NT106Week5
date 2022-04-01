@@ -69,7 +69,7 @@
             // sendRTBox
             // 
             this.sendRTBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.sendRTBox.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.sendRTBox.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.sendRTBox.Location = new System.Drawing.Point(11, 9);
             this.sendRTBox.Name = "sendRTBox";
             this.sendRTBox.Size = new System.Drawing.Size(481, 50);
@@ -93,44 +93,51 @@
             // userLabel
             // 
             this.userLabel.AutoSize = true;
-            this.userLabel.Location = new System.Drawing.Point(264, 13);
+            this.userLabel.Location = new System.Drawing.Point(261, 13);
             this.userLabel.Name = "userLabel";
-            this.userLabel.Size = new System.Drawing.Size(74, 15);
+            this.userLabel.Size = new System.Drawing.Size(78, 15);
             this.userLabel.TabIndex = 4;
-            this.userLabel.Text = "Username";
+            this.userLabel.Text = "Username:";
             // 
             // ipLabel
             // 
             this.ipLabel.AutoSize = true;
             this.ipLabel.Location = new System.Drawing.Point(43, 13);
             this.ipLabel.Name = "ipLabel";
-            this.ipLabel.Size = new System.Drawing.Size(20, 15);
+            this.ipLabel.Size = new System.Drawing.Size(24, 15);
             this.ipLabel.TabIndex = 3;
-            this.ipLabel.Text = "IP";
+            this.ipLabel.Text = "IP:";
             // 
             // ipTBox
             // 
-            this.ipTBox.Location = new System.Drawing.Point(68, 10);
+            this.ipTBox.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ipTBox.Location = new System.Drawing.Point(68, 8);
             this.ipTBox.Name = "ipTBox";
-            this.ipTBox.Size = new System.Drawing.Size(153, 23);
+            this.ipTBox.Size = new System.Drawing.Size(153, 25);
             this.ipTBox.TabIndex = 2;
             this.ipTBox.Text = "127.0.0.1";
+            this.ipTBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // userTBox
             // 
-            this.userTBox.Location = new System.Drawing.Point(340, 10);
+            this.userTBox.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.userTBox.Location = new System.Drawing.Point(340, 8);
             this.userTBox.Name = "userTBox";
-            this.userTBox.Size = new System.Drawing.Size(100, 23);
+            this.userTBox.Size = new System.Drawing.Size(100, 25);
             this.userTBox.TabIndex = 1;
+            this.userTBox.Text = "tu";
+            this.userTBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // connectBtn
             // 
-            this.connectBtn.Location = new System.Drawing.Point(468, 5);
+            this.connectBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.connectBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.connectBtn.Location = new System.Drawing.Point(460, 5);
             this.connectBtn.Name = "connectBtn";
-            this.connectBtn.Size = new System.Drawing.Size(80, 30);
+            this.connectBtn.Size = new System.Drawing.Size(100, 32);
             this.connectBtn.TabIndex = 0;
             this.connectBtn.Text = "Connect";
-            this.connectBtn.UseVisualStyleBackColor = true;
+            this.connectBtn.UseVisualStyleBackColor = false;
             this.connectBtn.Click += new System.EventHandler(this.connectBtn_Click);
             // 
             // mainPanel
