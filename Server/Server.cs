@@ -113,7 +113,7 @@ namespace Server
                     foreach (TcpClient client in dict.Values)
                     {
                         if (client == tcpClient)
-                        {
+                        {   
                             continue;
                         }
                         StreamWriter sw = new StreamWriter(client.GetStream());
